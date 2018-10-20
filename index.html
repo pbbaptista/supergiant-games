@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Supergiant Games, videogames, indie, technology, news">
+    <meta name="description" content="Supergiant Games website">
+    <meta name="author" content="António Machado 8873 TD; Patrícia Baptista 8367 TG">
+    
+    <!-- icon library para social media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Unica+One" rel="stylesheet">
+
+    
+    <title>Supergiant Games</title>
+</head>
+    
+<body>
+    
+    <!-- MENU NAVEGACAO -->
+    <nav id="menu">
+        
+        <a href="#intro" class="menu-item">HOME</a>
+        <a href="#games" class="menu-item">GAMES</a>
+        <a href="#blog">BLOG</a>
+        <a href="#about" class="menu-item">ABOUT</a>
+        <a href="#careers" class="menu-item">CAREERS</a>
+        <a href="https://www.facebook.com/pg/supergiantgames" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com/supergiantgames" class="fa fa-twitter"></a>
+
+    </nav>
+    
+    
+    <div class="clear"></div>
+            
+    <div class="container">
+        
+        <!-- INTRO -->
+        <div id="intro">
+        
+            <img src="img/intro-bckg.jpg">
+            
+            
+                <h1 id="intro-header">SUPERGIANT GAMES IS A SMALL DEVELOPER WITH BIG AMBITIONS</h1>
+                <p id="intro-p">We want to make games that spark your imagination like the games you played as a kid.</p>
+           
+        </div>
+        
+        <!-- SECÇÃO GAMES -->
+        <div id="games" class="section-header">
+            
+            <h1 class="section-title">GAMES</h1>
+            
+            
+            <div class="section-content">
+                
+                <!-- Bastion -->
+                <div class="game-preview">
+                    <img src="img/bastion.jpg" >
+                    <h2 class="game-name">Bastion, 2011</h2>
+                    <p class="game-text">Bastion is an original action role-playing game set in a lush imaginative world, in which players must create and fight for civilization’s last refuge.</p>
+                </div>
+                
+                <!-- Transistor -->
+                <div class="game-preview">
+                    <img src="img/transistor.jpg">
+                    <h2 class="game-name">Transistor, 2014</h2>
+                    <p class="game-text">Transistor is a sci-fi themed action RPG that invites you to wield an extraordinary weapon of unknown origin as you fight through a stunning futuristic city.</p>
+                </div>
+            
+                <!-- Pyre -->
+                <div class="game-preview">
+                    <img src="img/pyre.jpg">
+                    <h2 class="game-name">Pyre, 2017</h2>
+                    <p class="game-text">Pyre is a party-based RPG in which you lead a band of exiles to freedom through an ancient competition spread across a vast, mystical purgatory.</p>
+                </div>
+                
+                <div class="game-links">
+                    <a href="http://store.steampowered.com/app/107100/Bastion/" id="bastion-steam"></a>
+                    <a href="http://store.steampowered.com/app/237930/Transistor/" id="transistor-steam"></a>
+                    <a href="http://store.steampowered.com/app/462770/Pyre/" id="pyre-steam"></a>
+                
+                </div>
+            
+                <div class="clear"></div>
+            </div>
+        </div>
+            
+        <!-- SECÇÃO BLOG -->
+        <div id="blog" class="section-header">
+            
+            <h1 class="section-title">BLOG</h1>
+            
+            <div class="blog-link">
+                <a href><h1 class='blog-text'> Check out our blog here! </h1></a>
+            </div>
+            
+            <div class="clear"></div>
+                
+        </div>
+        
+        <!-- SECÇÃO ABOUT -->
+        <div id="about" class="section-header">
+            
+            <h1 class="section-title">ABOUT</h1>
+            
+            
+            <div class="section-content">
+                
+            
+                <div class="company">
+                    
+
+                    <h1> The company</h1>
+                    <img src="img/logo.png">
+
+                    <p>Supergiant Games is a game company located in the heart of the portuguese capital of Lisbon. We specialize in the creation of fun videogames that make use of today's hardware to its limits. If a game plays well, has a great story and is highly addictive you can bet it was created by us!</p>  
+
+
+                </div>
+                
+                <div class="team">
+                    
+                    <h1> The Team</h1>
+                    
+                    <div class="team-member">
+
+                        <h2>António Machado</h2>
+                        <img src="img/ant.jpg">
+                        <p> A graduate student at Escola Superior de Comunicação Social, António is a skilled programmer and 3d artist.</p>
+                        <p>He handles those big lines of code and fights the ever crashing Blender in order to deliver the most impressive looking games to date!</p>
+                        
+                    </div>
+
+                    <div class="team-member">
+                        <h2> Patrícia Baptista</h2>
+                        <img src="img/pat.jpg">
+                        <p> Patrícia is also a graduate at Escola Superior de Comunicação Social and is the more organized member of the team.</p> 
+                        <p>She is both skilled at programming and management of life, which makes her the best leader in all teams!</p>
+                    </div>
+                    
+                    <div class="clear"></div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- SECÇAO CAREERS -->
+        <div id="careers" class="section-header">
+            
+            <h1 class="section-title">CAREERS</h1>
+            
+            <div class="section-content">
+                
+                <div id="career-form">                
+                    <form action="verify.php" id="infoform" method="post">
+                        <input type="hidden" name="formtype" value="addcv">
+
+                        Name:<br>
+                        <textarea rows= "1" input type="text" name="name" required></textarea>
+                        <br>
+                        Email:<br>
+                        <input type="email" name="email" class="inputarea" class="inputarea" required>
+                        <br>
+                        Phone Number:<br>
+                        <input type="number" name="phone" class="inputarea" required>
+                        <br>
+                        Cover Letter:<br>
+                        <textarea rows= "10"  name="cover" form="infoform" required></textarea>
+                        <br>
+                        Links:<br>
+                        <input type="url" name="links" class="inputarea" required>
+                        <br>
+                        Photo:<br>
+                        <input type="file" name="photo" required>
+                        <br>
+                        CV:<br>
+                        <input type="file" name="cv" required>
+                        <br>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- FIM CONTAINER -->
+    
+    <!-- Footer -->
+    <footer id="site_footer">
+        <div class = "footer_copy">
+            &copy; ANTÓNIO MACHADO 8873 TD; PATRÍCIA BAPTISTA 8367 TG  ||  LABORATÓRIO DE APLICAÇÕES INTERATIVAS ||  2017/2018
+        </div>
+    </footer>
+    
+    <!-- JavaScript file -->
+    <script src="js/jquery.js"></script> 
+    <script src="js/script.js"></script> 
+    
+</body>
+</html>
+

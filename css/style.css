@@ -1,0 +1,343 @@
+body {
+    margin:0;
+    font-family: 'Slabo 27px', serif;
+    font-size: 16px;
+    background-color: rgba( 255, 98, 0, 0.8);
+}
+
+.clear{
+    clear: both;
+    
+}
+
+h1{
+    font-family: 'Unica One', cursive;
+    color: #AF0015;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 0;
+    padding-bottom: 4em;
+    background: rgba(192, 192, 192, 0.6);
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+}
+
+
+/***** MENU NAVEGAÇÃO *****/
+#menu{
+    background-color: #AF0015;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    
+}
+#menu li{
+    display:inline;
+}
+
+#menu a{
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display:inline-block;
+}
+
+#menu a:hover {
+    background-color: #FF6200;
+    color: #AF0015;
+}
+/* Add an active class to highlight the current page */
+.active-menu{
+    background-color: #DF1402;
+}
+/* Hide the link that should open and close the topnav on small screens */
+#menu .icon {
+    display: none;
+} 
+
+@media screen and (max-width: 600px) {
+  #menu li:not(:first-child) {display: none;}
+  #menu a .icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #menu .responsive {position: relative;}
+  #menu .responsive a .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #menu .responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/***** SECTIONS *****/
+.section-header{
+    padding: 2em ;
+
+}
+.section-title{
+    background: #FF6200;
+    padding-left: 1em;
+
+}
+
+.section-content{
+    width: 100%;
+    padding: .25em;
+}
+
+/***** INTRO ****/
+
+#intro{
+    text-align: center;
+    width: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+#intro img{
+    width: 70%;
+}
+
+#intro-header{
+    margin-bottom: .25em;
+}
+
+#intro-p{
+    font-size: 1.25em;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 0;
+    font-weight: 550;
+    
+}
+
+/***** GAMES *****/
+
+.game-preview{
+    width: 30%;
+    float: left;
+    background: rgba(175, 0, 21, 1);
+    text-align: center;
+    margin: 1em;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.game-preview img{
+    width: 100%;
+    border-top-left-radius: 5% ;
+    border-top-right-radius: 5%;
+}
+
+.game-text {
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.game-links{
+    display: none;
+}
+
+
+/***** BLOGPOST *****/
+
+.blog-preview{
+    width: 30%;
+    float: left;
+    background: rgba(175, 0, 21, 1);
+    text-align: center;
+    margin: 1em;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.blog-preview img{
+    width: 100%;
+    border-top-left-radius: 5% ;
+    border-top-right-radius: 5%;
+}
+
+.blog-text {
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.blog-link{
+    text-align: center;
+    float:left;
+    background: rgb( 255, 98, 0);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+
+/***** ABOUT ****/
+.company{
+    text-align: center;
+}
+
+.company h1{
+    margin: 0;
+    padding: 0;
+}
+
+.company p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4em;
+    font-size: 1.25em;
+}
+
+.team {
+    text-align: center;
+
+}
+
+.team-member{
+    background: rgba( 255, 98, 0, 0.4);
+    width: 40%;
+    float: left;
+    margin: 5%;
+    
+}
+
+.team h1{
+    margin-bottom: 0;
+
+}
+
+.team-member h2{
+    margin-bottom: 0;
+    color: rgba(175, 0, 21, 1);
+    
+    
+}
+
+.team-member p{
+    color: #000;
+    font-weight: 555;
+}
+
+.team img{
+    width: 60%;
+    height: auto;
+    margin: 15px;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+.team p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/**** CAREERS ****/
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.inputarea{
+    width:100%;
+}
+
+#career-form{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+
+
+/**** SHOP ****/
+/*
+.shopping {
+    color: aliceblue;
+    text-align: center;
+}
+    
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+*/
+
+/***** FOOTER *****/
+.footer_copy{
+    font-family: 'Unica One', cursive;
+    bottom: 0;
+    width: 100%;
+    padding:10px 0;
+    font-size:13px;
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.9);
+}
